@@ -1,8 +1,40 @@
 body {
   margin: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1faee;
 }
 
-img {
+/* img {
   width: 100px;
+} */
+
+.header {
+  background-image: url(../images/bridge-wide.jpg);
+  height: 343px;
+  width: 720px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 100px;
+  background-color: #1d3557;
+  opacity: 0.8;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.description {
+  background-color: #457b9d;
+  opacity: 0.8;
+  width: fit-content;
+  gap: 2%;
+  padding: 4px 15px;
+  border-radius: 14px;
 }
