@@ -7,10 +7,6 @@ body {
   background-color: #f1faee;
 }
 
-/* img {
-  width: 100px;
-} */
-
 .header {
   background-image: url(../images/bridge-wide.jpg);
   height: 343px;
@@ -37,4 +33,10 @@ h1 {
   gap: 2%;
   padding: 4px 15px;
   border-radius: 14px;
+}
+
+.activies {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
 }
