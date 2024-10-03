@@ -88,3 +88,8 @@ h1 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.g-info {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+}
