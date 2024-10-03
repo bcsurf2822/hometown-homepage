@@ -1,10 +1,10 @@
 body {
   margin: 0;
   text-align: center;
+  background-color: #f1faee;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1faee;
 }
 
 .header {
@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid black;
 }
 
 h1 {
@@ -37,6 +38,18 @@ h1 {
 
 .activies {
   display: flex;
-  /* flex-direction: column; */
+  border: 1px solid black;
   justify-content: space-evenly;
+  width: 720px;
+  height: 300px;
+}
+
+.activity {
+  width: 160px;
+}
+
+#act-img {
+  width: 150px;
+  border-radius: 60%;
+  height: 150px;
 }
