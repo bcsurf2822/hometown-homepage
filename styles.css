@@ -80,3 +80,11 @@ h1 {
   border-radius: 9px;
   opacity: 0.8;
 }
+
+.separate {
+  color: white;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
