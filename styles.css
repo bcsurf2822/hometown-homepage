@@ -1,21 +1,23 @@
 body {
-  margin: 0;
   text-align: center;
-  background-color: #f1faee;
+  background: linear-gradient(#3f87a6, #f69d3c);
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .header {
   background-image: url(../images/bridge-wide.jpg);
+  border-radius: 8%;
   height: 343px;
   width: 720px;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
 }
 
 h1 {
@@ -38,7 +40,7 @@ h1 {
 
 .activies {
   display: flex;
-  border: 1px solid black;
+
   justify-content: space-evenly;
   width: 720px;
   height: 300px;
@@ -46,10 +48,35 @@ h1 {
 
 .activity {
   width: 160px;
+  background-color: #457b9d;
+  color: white;
+  border-radius: 9px;
+  opacity: 0.8;
 }
 
 #act-img {
   width: 150px;
   border-radius: 60%;
   height: 150px;
+}
+
+#act-img:hover {
+  transform: scale(1.02);
+}
+
+#guide-img {
+  width: 250px;
+
+  height: 300px;
+  border-radius: 10px;
+  border: 3px solid rgb(181, 142, 43);
+}
+
+.guide {
+  margin-top: 30px;
+  padding: 0 20px;
+  background-color: #457b9d;
+  color: white;
+  border-radius: 9px;
+  opacity: 0.8;
 }
